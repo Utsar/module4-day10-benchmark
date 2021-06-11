@@ -18,8 +18,6 @@ const Sidebar = () => {
       <SidebarLinks Icon={HomeIcon} link={"Home"} />
       <SidebarLinks Icon={SearchIcon} link={"Search"} />
       <SidebarLinks Icon={LibraryMusicIcon} link={"Your Library"} />
-      <SidebarButtons title={"SIGN UP"} />
-      <SidebarButtons title={"LOGIN"} />
     </div>
   );
 };

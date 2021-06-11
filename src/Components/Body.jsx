@@ -1,10 +1,11 @@
 import React from "react";
 import "./body.css";
+import HomePage from "./HomePage";
 
 const Body = () => {
   return (
     <div className="body">
-      <h1>i'm a body</h1>
+      <HomePage />
     </div>
   );
 };

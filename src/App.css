@@ -6,3 +6,47 @@
 .appBody {
   display: flex;
 }
+.homePageNavs {
+  display: flex;
+  justify-content: center;
+  color: #919dac;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.homePageNavs > p {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.homePageNavs > p:hover {
+  color: white;
+  transition: 200ms color ease-in;
+}
+.underline {
+  position: relative;
+}
+
+.underline:hover::after {
+  content: "";
+  position: absolute;
+  height: 0.2em;
+  background: #0caf0c;
+  top: 95%;
+  width: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.underline.main-active::after {
+  content: "";
+  position: absolute;
+  height: 0.2em;
+  background: #0caf0c;
+  top: 80%;
+  width: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
